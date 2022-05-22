@@ -1,0 +1,701 @@
+{
+    "firstName": "Dagobert",
+    "lastName": "Duck",
+    "userName": "Dagobert Duck",
+    "email": "dagobert.duck@swisscom.com",
+    "employeeId": "1",
+    "department": "INI-DOS-DUck",
+    "userRole": "ROLE_ADMIN",
+    "organizations": [
+        {
+            "id": "5fb68598-58c9-4298-9527-fd4565f26e4d",
+            "name": "INI-DOS-BNC",
+            "role": "ROLE_ADMIN",
+            "spaces": [
+                {
+                    "id": "05b27735-79c3-459b-963b-5e9adbe0891d",
+                    "name": "DEV",
+                    "featureToggles": [
+                        {
+                            "id": "e360750d-5845-4b7b-9dc3-c8f85b89c1b0",
+                            "technicalName": "ABR",
+                            "description": "Application Based Routing",
+                            "spaceId": "05b27735-79c3-459b-963b-5e9adbe0891d",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "19dd82cc-ae35-448f-813c-3a6e00d4c4f9",
+                                    "filterKey": "09726911",
+                                    "includeOnlys": [
+                                        {
+                                            "id": "03fcf9b7-67d9-47b5-864e-46df15b3d925",
+                                            "includeOnly": "PRO-000123",
+                                            "status": false
+                                        },
+                                        {
+                                            "id": "5066445c-be6d-4d14-a987-56af30bd9017",
+                                            "includeOnly": "PRO-000999",
+                                            "status": false
+                                        }
+                                    ],
+                                    "status": false
+                                },
+                                {
+                                    "id": "0128bb68-0957-4276-8184-f7125ed9717f",
+                                    "filterKey": "6149645123",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "1db46e7e-79ef-4140-938d-cc9f95eae235",
+                                    "filterKey": "82672128",
+                                    "includeOnlys": [
+                                        {
+                                            "id": "06861d6c-12fb-4ffb-9b9a-f02429821669",
+                                            "includeOnly": "PRO-000123",
+                                            "status": true
+                                        }
+                                    ],
+                                    "status": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "92eed7eb-834f-4d55-9644-409c50600b05",
+                            "technicalName": "ManagedSecurity",
+                            "description": "-",
+                            "spaceId": "05b27735-79c3-459b-963b-5e9adbe0891d",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "d2a3380c-198a-4487-b847-8732912d4226",
+                                    "filterKey": "0161749323",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "19dd82cc-ae35-448f-813c-3a6e00d4c4f9",
+                                    "filterKey": "09726911",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "b7eb11ed-14fc-4955-8a9d-e935b70e42d9",
+                                    "filterKey": "1403939511",
+                                    "includeOnlys": [],
+                                    "status": false
+                                }
+                            ],
+                            "expiryDate": "2022-04-30"
+                        },
+                        {
+                            "id": "42641117-fdd3-4884-ba62-0f305aa7c57b",
+                            "technicalName": "PublicWifi",
+                            "description": "-",
+                            "spaceId": "05b27735-79c3-459b-963b-5e9adbe0891d",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "d2a3380c-198a-4487-b847-8732912d4226",
+                                    "filterKey": "0161749323",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "19dd82cc-ae35-448f-813c-3a6e00d4c4f9",
+                                    "filterKey": "09726911",
+                                    "includeOnlys": [
+                                        {
+                                            "id": "b1affae2-d2ed-4c26-a649-dd0c354c0418",
+                                            "includeOnly": "Agreement-A",
+                                            "status": false
+                                        },
+                                        {
+                                            "id": "9ac07a36-35c6-47f7-ba77-eaf1e6308fb5",
+                                            "includeOnly": "Agreement-C",
+                                            "status": false
+                                        }
+                                    ],
+                                    "status": false
+                                },
+                                {
+                                    "id": "8d48731d-e294-44a1-9703-590db9ca6493",
+                                    "filterKey": "2297634133",
+                                    "includeOnlys": [],
+                                    "status": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "273820bc-7339-4ad3-8dd3-8a87c522fb30",
+                            "technicalName": "thor2",
+                            "description": "Next Generation Thor",
+                            "spaceId": "05b27735-79c3-459b-963b-5e9adbe0891d",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "d2a3380c-198a-4487-b847-8732912d4226",
+                                    "filterKey": "0161749323",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "1e750ce8-8bea-4aec-957e-fc5611c2facc",
+                                    "filterKey": "78878711",
+                                    "includeOnlys": [],
+                                    "status": true
+                                },
+                                {
+                                    "id": "1db46e7e-79ef-4140-938d-cc9f95eae235",
+                                    "filterKey": "82672128",
+                                    "includeOnlys": [],
+                                    "status": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "7dd47c7e-229b-4e7b-8e75-aa2e045b8437",
+                    "name": "VEGA",
+                    "featureToggles": [
+                        {
+                            "id": "65620311-28c7-438a-97b2-f8f882259cc7",
+                            "technicalName": "ABR",
+                            "description": "Application Based Routing",
+                            "spaceId": "7dd47c7e-229b-4e7b-8e75-aa2e045b8437",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "d2a3380c-198a-4487-b847-8732912d4226",
+                                    "filterKey": "0161749323",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "78ac3e6d-f18a-4b08-b236-73ffc29ec044",
+                                    "filterKey": "22922957",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "1e750ce8-8bea-4aec-957e-fc5611c2facc",
+                                    "filterKey": "78878711",
+                                    "includeOnlys": [],
+                                    "status": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "93fe24c7-00d4-4f0f-877e-55a7343fa4f2",
+                            "technicalName": "ManagedSecurity",
+                            "description": "-",
+                            "spaceId": "7dd47c7e-229b-4e7b-8e75-aa2e045b8437",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "8d48731d-e294-44a1-9703-590db9ca6493",
+                                    "filterKey": "2297634133",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "7af0d9e0-75f5-4806-88ca-a7c21f5ff056",
+                                    "filterKey": "63435517",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "1e750ce8-8bea-4aec-957e-fc5611c2facc",
+                                    "filterKey": "78878711",
+                                    "includeOnlys": [],
+                                    "status": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "accb2c4f-4df3-48b4-81e8-f02a2d7dcec4",
+                            "technicalName": "PublicWifi",
+                            "description": "-",
+                            "spaceId": "7dd47c7e-229b-4e7b-8e75-aa2e045b8437",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "19dd82cc-ae35-448f-813c-3a6e00d4c4f9",
+                                    "filterKey": "09726911",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "b7eb11ed-14fc-4955-8a9d-e935b70e42d9",
+                                    "filterKey": "1403939511",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "1e750ce8-8bea-4aec-957e-fc5611c2facc",
+                                    "filterKey": "78878711",
+                                    "includeOnlys": [
+                                        {
+                                            "id": "84db2c98-20c3-4b54-953b-4f6029ab97cf",
+                                            "includeOnly": "Agreement-A",
+                                            "status": false
+                                        },
+                                        {
+                                            "id": "6b8c27eb-c92d-41ec-87df-8703f1568465",
+                                            "includeOnly": "Agreement-C",
+                                            "status": false
+                                        }
+                                    ],
+                                    "status": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ffe2c4ea-6527-46ab-942e-dc0ae1285a4b",
+                            "technicalName": "thor2",
+                            "description": "Next Generation Thor",
+                            "spaceId": "7dd47c7e-229b-4e7b-8e75-aa2e045b8437",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "8d48731d-e294-44a1-9703-590db9ca6493",
+                                    "filterKey": "2297634133",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "0128bb68-0957-4276-8184-f7125ed9717f",
+                                    "filterKey": "6149645123",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "1db46e7e-79ef-4140-938d-cc9f95eae235",
+                                    "filterKey": "82672128",
+                                    "includeOnlys": [],
+                                    "status": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "879474f1-29ed-4875-8ea6-ba2ca4ca9e61",
+                    "name": "PRE-PROD",
+                    "featureToggles": [
+                        {
+                            "id": "4d46436f-22ce-4e51-a91b-dd848b072a4e",
+                            "technicalName": "ABR",
+                            "description": "Application Based Routing",
+                            "spaceId": "879474f1-29ed-4875-8ea6-ba2ca4ca9e61",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "b7eb11ed-14fc-4955-8a9d-e935b70e42d9",
+                                    "filterKey": "1403939511",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "8d48731d-e294-44a1-9703-590db9ca6493",
+                                    "filterKey": "2297634133",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "0128bb68-0957-4276-8184-f7125ed9717f",
+                                    "filterKey": "6149645123",
+                                    "includeOnlys": [],
+                                    "status": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "9b865cee-2999-44d8-a142-624ad250697f",
+                            "technicalName": "ManagedSecurity",
+                            "description": "-",
+                            "spaceId": "879474f1-29ed-4875-8ea6-ba2ca4ca9e61",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "19dd82cc-ae35-448f-813c-3a6e00d4c4f9",
+                                    "filterKey": "09726911",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "7af0d9e0-75f5-4806-88ca-a7c21f5ff056",
+                                    "filterKey": "63435517",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "1e750ce8-8bea-4aec-957e-fc5611c2facc",
+                                    "filterKey": "78878711",
+                                    "includeOnlys": [],
+                                    "status": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1a3cc478-67e0-4a56-a6f1-0acc8d86bf05",
+                            "technicalName": "PublicWifi",
+                            "description": "-",
+                            "spaceId": "879474f1-29ed-4875-8ea6-ba2ca4ca9e61",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "d2a3380c-198a-4487-b847-8732912d4226",
+                                    "filterKey": "0161749323",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "8d48731d-e294-44a1-9703-590db9ca6493",
+                                    "filterKey": "2297634133",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "0128bb68-0957-4276-8184-f7125ed9717f",
+                                    "filterKey": "6149645123",
+                                    "includeOnlys": [],
+                                    "status": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d7317d8e-5fe4-48f3-8e2a-a693e8be79a6",
+                            "technicalName": "thor2",
+                            "description": "Next Generation Thor",
+                            "spaceId": "879474f1-29ed-4875-8ea6-ba2ca4ca9e61",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "19dd82cc-ae35-448f-813c-3a6e00d4c4f9",
+                                    "filterKey": "09726911",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "78ac3e6d-f18a-4b08-b236-73ffc29ec044",
+                                    "filterKey": "22922957",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "1db46e7e-79ef-4140-938d-cc9f95eae235",
+                                    "filterKey": "82672128",
+                                    "includeOnlys": [],
+                                    "status": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "6f800520-77cd-4ee5-8a76-9d2273088787",
+                    "name": "PROD",
+                    "featureToggles": [
+                        {
+                            "id": "b2579bcc-d4de-4dac-af4c-27868e421dd1",
+                            "technicalName": "ABR",
+                            "description": "Application Based Routing",
+                            "spaceId": "6f800520-77cd-4ee5-8a76-9d2273088787",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "b7eb11ed-14fc-4955-8a9d-e935b70e42d9",
+                                    "filterKey": "1403939511",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "7af0d9e0-75f5-4806-88ca-a7c21f5ff056",
+                                    "filterKey": "63435517",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "1db46e7e-79ef-4140-938d-cc9f95eae235",
+                                    "filterKey": "82672128",
+                                    "includeOnlys": [],
+                                    "status": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "55ca8a8d-8d61-463e-9124-272cab11bbe4",
+                            "technicalName": "ManagedSecurity",
+                            "description": "-",
+                            "spaceId": "6f800520-77cd-4ee5-8a76-9d2273088787",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "d2a3380c-198a-4487-b847-8732912d4226",
+                                    "filterKey": "0161749323",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "b7eb11ed-14fc-4955-8a9d-e935b70e42d9",
+                                    "filterKey": "1403939511",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "8d48731d-e294-44a1-9703-590db9ca6493",
+                                    "filterKey": "2297634133",
+                                    "includeOnlys": [],
+                                    "status": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1a8ae55a-d998-4a11-bbf0-9e1ea1e8a70f",
+                            "technicalName": "PublicWifi",
+                            "description": "-",
+                            "spaceId": "6f800520-77cd-4ee5-8a76-9d2273088787",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "19dd82cc-ae35-448f-813c-3a6e00d4c4f9",
+                                    "filterKey": "09726911",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "78ac3e6d-f18a-4b08-b236-73ffc29ec044",
+                                    "filterKey": "22922957",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "1e750ce8-8bea-4aec-957e-fc5611c2facc",
+                                    "filterKey": "78878711",
+                                    "includeOnlys": [],
+                                    "status": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "6f29123e-43f6-4f81-a2f5-0c9968432b90",
+                            "technicalName": "thor2",
+                            "description": "Next Generation Thor",
+                            "spaceId": "6f800520-77cd-4ee5-8a76-9d2273088787",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "b7eb11ed-14fc-4955-8a9d-e935b70e42d9",
+                                    "filterKey": "1403939511",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "8d48731d-e294-44a1-9703-590db9ca6493",
+                                    "filterKey": "2297634133",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "1e750ce8-8bea-4aec-957e-fc5611c2facc",
+                                    "filterKey": "78878711",
+                                    "includeOnlys": [],
+                                    "status": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c8e7042b-a282-464b-825e-202893d38b65",
+            "name": "GHR-OSA-NEX",
+            "role": "ROLE_ADMIN",
+            "spaces": [
+                {
+                    "id": "f3c52495-9f31-4623-ac1b-aac40f916029",
+                    "name": "STAGE",
+                    "featureToggles": [
+                        {
+                            "id": "5185c00f-260a-4393-b1c5-4c04e7972b3d",
+                            "technicalName": "AktuellesProjekt",
+                            "description": "-",
+                            "spaceId": "f3c52495-9f31-4623-ac1b-aac40f916029",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "d2a3380c-198a-4487-b847-8732912d4226",
+                                    "filterKey": "0161749323",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "7af0d9e0-75f5-4806-88ca-a7c21f5ff056",
+                                    "filterKey": "63435517",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "1db46e7e-79ef-4140-938d-cc9f95eae235",
+                                    "filterKey": "82672128",
+                                    "includeOnlys": [],
+                                    "status": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f78039bd-8670-41bc-8a46-58eaf3fe4ba1",
+                            "technicalName": "Bildungsbericht",
+                            "description": "-",
+                            "spaceId": "f3c52495-9f31-4623-ac1b-aac40f916029",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "b7eb11ed-14fc-4955-8a9d-e935b70e42d9",
+                                    "filterKey": "1403939511",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "7af0d9e0-75f5-4806-88ca-a7c21f5ff056",
+                                    "filterKey": "63435517",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "1db46e7e-79ef-4140-938d-cc9f95eae235",
+                                    "filterKey": "82672128",
+                                    "includeOnlys": [],
+                                    "status": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "2e58736e-75ed-427a-a6f7-cffbe24c8ae5",
+                    "name": "DEV",
+                    "featureToggles": [
+                        {
+                            "id": "9fbbfa65-bb33-445b-bea2-70d92abb1c2a",
+                            "technicalName": "AktuellesProjekt",
+                            "description": "-",
+                            "spaceId": "2e58736e-75ed-427a-a6f7-cffbe24c8ae5",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "19dd82cc-ae35-448f-813c-3a6e00d4c4f9",
+                                    "filterKey": "09726911",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "0128bb68-0957-4276-8184-f7125ed9717f",
+                                    "filterKey": "6149645123",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "1db46e7e-79ef-4140-938d-cc9f95eae235",
+                                    "filterKey": "82672128",
+                                    "includeOnlys": [],
+                                    "status": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d06ba2be-0b86-4ed0-b0c5-54f312cde777",
+                            "technicalName": "Bildungsbericht",
+                            "description": "-",
+                            "spaceId": "2e58736e-75ed-427a-a6f7-cffbe24c8ae5",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "d2a3380c-198a-4487-b847-8732912d4226",
+                                    "filterKey": "0161749323",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "19dd82cc-ae35-448f-813c-3a6e00d4c4f9",
+                                    "filterKey": "09726911",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "0128bb68-0957-4276-8184-f7125ed9717f",
+                                    "filterKey": "6149645123",
+                                    "includeOnlys": [],
+                                    "status": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "e9e5d63e-785c-4d3c-85d3-d749785c1434",
+                    "name": "PROD",
+                    "featureToggles": [
+                        {
+                            "id": "706ba91f-112e-49a5-b9be-9557d5ca523b",
+                            "technicalName": "AktuellesProjekt",
+                            "description": "-",
+                            "spaceId": "e9e5d63e-785c-4d3c-85d3-d749785c1434",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "19dd82cc-ae35-448f-813c-3a6e00d4c4f9",
+                                    "filterKey": "09726911",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "b7eb11ed-14fc-4955-8a9d-e935b70e42d9",
+                                    "filterKey": "1403939511",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "0128bb68-0957-4276-8184-f7125ed9717f",
+                                    "filterKey": "6149645123",
+                                    "includeOnlys": [],
+                                    "status": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0bcd4bd4-6699-4421-80a3-e5341577bf3c",
+                            "technicalName": "Bildungsbericht",
+                            "description": "-",
+                            "spaceId": "e9e5d63e-785c-4d3c-85d3-d749785c1434",
+                            "status": false,
+                            "customers": [
+                                {
+                                    "id": "b7eb11ed-14fc-4955-8a9d-e935b70e42d9",
+                                    "filterKey": "1403939511",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "8d48731d-e294-44a1-9703-590db9ca6493",
+                                    "filterKey": "2297634133",
+                                    "includeOnlys": [],
+                                    "status": false
+                                },
+                                {
+                                    "id": "1e750ce8-8bea-4aec-957e-fc5611c2facc",
+                                    "filterKey": "78878711",
+                                    "includeOnlys": [],
+                                    "status": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
